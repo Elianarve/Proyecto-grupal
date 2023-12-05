@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Jost', sans-serif;
+}
+
+/* inicio barra navegacion */
+.header {
+  background-color: #ff7f99;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  /*Para dar espacio en los bordes */
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  font-size: 45px;
+}
+
+.title-yellow {
+  color: #FFCA41;
+}
+
+.list-d {
+  list-style-type: none;
+  display: flex;
+  padding-top: 3%;
+}
+
+.list {
+  float: left;
+  text-align: center;
+  width: 150px;
+  height: 45px;
+}
+
+.a-list {
+  color: white;
+  padding: 10px 20px;
+  font-size: 24px;
+}
+
+.a-list:hover {
+  border: 2px solid #FFCA41;
+  border-radius: 30px;
+  background-color: rgba(255, 202, 65, .3);
+}
+
+/* fin barra de navegacion */
+
+/* inicio section */
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 28px 32px;
+  padding-left: 10%;
+}
+
+.img-principal {
+  width: 456px;
+  height: 456px;
+  border-radius: 240px 0px 240px 240px;
+  padding: 8px 9px 0px 10px;
+  object-fit: cover;
+  margin-left: 5%;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  margin-left: 150px;
+  text-align: justify;
+}
+
+.name {
+  font-size: 85px;
+  color: #ff7f99;
+  line-height: 65px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 65px;
+}
+
+.button {
+  width: 186px;
+  height: 45px;
+  border-radius: 45px;
+  background-color: #FFCA41;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #ff7f99;
+}
+
+/* fin section */
+
+/* inicio footer */
+footer {
+  background-color: #ff7f99;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  height: 550px;
+}
+
+.img-personal {
+  width: 277px;
+  height: 277px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 100%;
+}
+
+.subtitle-h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+}
+
+.subtitle-h4 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 7%;
+}
+
+.icon {
+  color: black;
+  font-size: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* fin footer */
+
+
+/*************************************************** DISEÑO RESPONSIVE *********************************************/
+
+@media (max-width: 632px) {
+  /* inicio header */
+
+  .title {
+    font-size: 45px;
+    margin: 3px;
+  }
+
+  .list-d {
+    flex-direction: column;
+  }
+
+  .list {
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .a-list {
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  /* fin header */
+
+  /* inicio section */
+
+  .img-principal {
+    width: 318px;
+    height: 318px;
+    border-radius: 240px 0px 240px 240px;
+    padding: 8px 0px 0px 10px;
+    margin: 0 auto;
+  }
+
+  .name {
+    font-size: 60px;
+    line-height: 47px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+
+  .section-container {
+    display: block;
+    padding-left: 0%;
+  }
+
+  .button {
+    margin: auto;
+  }
+
+  /* fin section */
+
+  /* inicio footer */
+  .footer {
+    display: block;
+    height: 100%;
+  }
+
+  .subtitle-h3 {
+    font-size: 35px;
+    padding-top: 7%;
+    line-height: 1%;
+  }
+
+  .subtitle-h4 {
+    font-size: 24px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .img-personal {
+    margin-left: 18%;
+  }
+
+  .perfil {
+    padding-top: 15%;
+  }
+}
+
+/* fin footer */
