@@ -4,6 +4,59 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+/* inicio idioma */
+.language{
+    display: flex;
+    justify-content: right;
+    margin: 40px 125px 40px 0;
+}
+
+.en{
+    color: #333;
+    font-weight: bold;
+}
+
+.es{
+    color: #333;
+    font-weight: bold;
+}
+
+.check{
+    position: relative;
+    width: 50px;
+}
+
+.check:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.check:checked:after{
+    left: 25px;
+    border: 2px solid #6496f9;
+}
+
+.check:checked:before{
+    background: #6496f9;
+}
+/* fin idioma */
+
 /* video */
 .video-style{
     width: 90vw;
