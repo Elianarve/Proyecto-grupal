@@ -282,3 +282,93 @@
 
 /* fin section */
 
+/* inicio footer */
+
+.footer {
+    background-color: black;
+    width: auto;
+    height: auto;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.estamos, .contactanos, .trabaja {
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(37, 195, 206);
+    padding: 2%;
+    margin-left: 2%;
+}
+
+.direccion {
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    margin-left: 4%;
+    margin-top: -2%;
+}
+
+.contactanos {
+    display: flex;
+    justify-content: center;
+    margin-top: -8.3%;
+    margin-right: 4.5%;
+}
+
+.datos {
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 5.9%;
+    margin-top: -2%;
+    margin-right: 5%;
+}
+
+.trabaja {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -6.6%;
+    margin-right: 5%;
+}
+
+.rrhh {
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2%;
+    margin-right: 10%;
+}
+
+.line {
+    width: 89%;
+    height: -10%;
+    background-color: rgb(128, 127, 127)2, 78, 78;
+    border-color: rgb(0, 0, 0);
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+
+.copyright {
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+    margin-top: -2%;
+}
+
+/* fin footer */
+
