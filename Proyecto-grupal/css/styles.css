@@ -181,7 +181,15 @@
 
 .title-service{
     text-align: center;
+    transition: 0.3s ease-in-out;
     padding-top: 4%;
+    font-size: 36px;
+}
+
+.title-service:hover{
+    color: #6496f9;
+    font-weight: bold;
+    font-size: 38px;
 }
 
 .subtitle{
