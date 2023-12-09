@@ -80,29 +80,33 @@
             </article>
         </section>
     </div>
+</div>
     <!-- fin servicios -->
  <!--inicio formulario-->
-    <div class="form">
-        <form>
+<div class="imgbackform">
+    <form action="http://127.0.0.1:5500/html/index.html" id= contacto method="get">
 
-            <h3 class="titleform">¿Quieres más información?</h3>
+        <h3 class="titleform">¿Quieres más información?
+
+        </h3>
             
             <label for="name" class="labelform"></label>
-            <input type="text" class="inputform" id="name" name="name" placeholder="Nombre:" minlength="3" maxlength="20" autocomplete="name" required>
+            <input type="text" class="inputform" id="name" name="name" placeholder="Juanita Flores" minlength="3" maxlength="20" autocomplete="name" required>
             
             <label for="email" class="labelform"></label>
-            <input type="email" class="inputform" id="email" name="email" placeholder="Email:" minlength="6" maxlength="20" autocomplete="email" required>
+            <input type="email" class="inputform" id="email" name="email" placeholder="example@mail.com" minlength="6" maxlength="20" autocomplete="email" required>
             
             <label for="phone" class="labelform"></label>
-            <input type="tel" class="inputform" id="phone" name="phone" placeholder="Teléfono:" pattern="[0-9]{9}" minlength="9" maxlength="9" autocomplete="mobile"required>
+            <input type="tel" class="inputform" id="phone" name="phone" placeholder="0034685393607" pattern="[0-9]{13}" minlength="9" maxlength="13" autocomplete="mobile"required>
 
-            <button type="submit">Enviar</button>
+            <button type="submit" class="send">Enviar</button>
 
-            <input type="checkbox" id="ley" name="ley" class="check" />
+            <input type="checkbox" id="ley" name="ley" class="checkbox" />
             <label for="protección" class="ley">Ley de protección de datos</label>
+            <script src="app.js"></script>
 
-        </form>
-    </div>
+    </form>
+</div>
     <!--fin formulario-->
 
 
