@@ -221,3 +221,65 @@
 
 /* fin section */
 
+/* Proyectos */
+
+.proyectos {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F4F4;
+}
+
+.proyecto {
+    width: auto;
+    height: 200px;
+    border: 15px;
+    border-color: black;
+    margin: 15px;
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out; /* Transición suave */
+    
+}
+
+.proyecto:hover {
+    filter: grayscale(0%);
+}
+
+/* Slider infinito */
+
+.slide {
+    margin-left: 60px;
+}
+
+.slider {
+    width: 75vw; /* 75% del viewport */
+    height: auto;
+    margin: auto; /* Para que quede centrado en la pantalla */
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 26s linear infinite;
+    width: calc(200px * 10); /*Calcula operaciones*/ /*tamaño de cada imagen multiplicado por el n de imagenes totales*/
+    -webkit-animation: scroll 26s linear infinite;
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide .marca {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-200px * 5));
+        transform: translateX(calc(-200px * 5));
+    }
+}
