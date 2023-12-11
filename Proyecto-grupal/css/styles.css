@@ -1,24 +1,29 @@
 /*inicio de section porfile*/
-img{
-    width: 25%;
-    height: 25%;
-    margin-top: 300px;
+.profile{
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+    width: 90vw;
+    height: 900px;    
+}
+
+ img{
     display: flex;
-    border-radius: 300px;
+    border-radius: 40px;
   }
   
-  .profile{
-      background-color: rgb(216, 216, 216);
-      width: 81.5%;
-      height: 90%;
-      margin-top: 20%;
-      margin-bottom: 20%;
-      padding: 10%;
-      margin-left: 4%;
-      margin-right: 3%;
-      border-radius: 40px;
-  }
-  
+.three-profiles{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.two-profiles{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+  /*
   .perfilrebeca{
       display: flex;
       justify-content: flex-start;
@@ -167,7 +172,7 @@ img{
       float: left;
       left: -1%;
   }
-  
+   */
   /*fin de seccion de los perfiles*/
   /*falta hacer que linkeding te lleve a la pagina de linkeding */
 
