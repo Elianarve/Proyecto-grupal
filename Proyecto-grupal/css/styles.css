@@ -7,7 +7,7 @@
     margin-top: 20%;
     margin-bottom: 0%;
     padding-top: 2%;
-    padding-bottom: 3%;
+    padding-bottom: 7%;
 }
 
 .estamos, .contactanos, .trabaja {
@@ -48,8 +48,9 @@
 .trabaja {
     display: flex;
     justify-content: flex-end;
-    margin-top: -7.6%;
+    margin-top: -7.7%;
     margin-right: 5%;
+    line-height: 120%;
 }
 
 .rrhh {
@@ -59,7 +60,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: -2%;
-    margin-right: 10.%;
+    margin-right: 10.7%;
 }
 
 .line {
