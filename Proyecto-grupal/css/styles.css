@@ -1,5 +1,9 @@
 /* Proyectos */
 
+.fondo_proyectos {
+    background-color: #F4F4F4;
+}
+
 .proyectos {
     display: flex;
     justify-content: space-around;
@@ -53,12 +57,11 @@
     margin-left: 20px;
 }
 
-
-
-
-
-
 /* Slider infinito */
+
+.fondo_carrousel {
+    background-color: #F4F4F4;
+}
 
 .titulo_carrousel {
     margin-top: 20px;
@@ -67,6 +70,7 @@
 }
 
 .slide {
+    margin-top: 1.5vw;
     margin-left: 60px;
 }
 
