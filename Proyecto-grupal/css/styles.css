@@ -7,7 +7,7 @@
     margin-top: 20%;
     margin-bottom: 0%;
     padding-top: 2%;
-    padding-bottom: 7%;
+    padding-bottom: 8.5%;
 }
 
 .estamos, .contactanos, .trabaja {
@@ -17,6 +17,15 @@
     color: rgb(37, 195, 206);
     padding: 2%;
     margin-left: 2%;
+}
+
+.estamos, .contactanos, .trabaja {
+    transition: color 0.5s ease;
+}
+
+.estamos:hover, .contactanos:hover, .trabaja:hover {
+    color:rgb(222, 85, 140);
+    cursor:crosshair;
 }
 
 .direccion {
@@ -34,16 +43,25 @@
     margin-right: 4.5%;
 }
 
-.datos {
+.tel {
     font-size: 16px;
     font-family: 'Jost', sans-serif;
     color: white;
     display: flex;
     justify-content: center;
-    margin-left: 5.9%;
+    margin-left: 4%;
     margin-top: -2%;
     margin-right: 4.4%;
 }
+
+.email {
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5%;
+}
+
 
 .trabaja {
     display: flex;
@@ -53,15 +71,31 @@
     line-height: 120%;
 }
 
-.rrhh {
+.cv {
     font-size: 16px;
     font-family: 'Jost', sans-serif;
     color: white;
     display: flex;
     justify-content: flex-end;
+    margin-right: 16.3%;
     margin-top: -2%;
-    margin-right: 10.7%;
 }
+
+.rrhh {
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10.8%;
+}
+
+a {
+    color: rgb(255, 255, 255);
+  }
+
+  a:hover {
+    color: rgb(222, 85, 140);
+  }
 
 .line {
     width: 89%;
