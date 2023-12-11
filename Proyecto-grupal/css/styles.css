@@ -1,28 +1,70 @@
 /* Proyectos */
 
 .proyectos {
-    margin-bottom: 40px;
     display: flex;
     justify-content: space-around;
-    background-color: #F4F4F4;
 }
 
 .proyecto {
     width: auto;
-    height: 200px;
-    border: 15px;
-    border-color: black;
-    margin: 15px;
-    filter: grayscale(100%);
-    transition: 0.3s ease-in-out; /* Transición suave */
-    
+    height: 20vw;
 }
 
-.proyecto:hover {
-    filter: grayscale(0%);
+.contenedor {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    padding: 0.8vw;
+    background-color: black;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.texto-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    opacity: 0; 
+    transition: 0.3s ease; 
+}
+
+.contenedor:hover .overlay {
+    opacity: 1; 
+}
+
+.contenedor:hover .texto-hover {
+    opacity: 1; 
+}
+
+.titulo_proyectos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
 
 /* Slider infinito */
+
+.titulo_carrousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
 
 .slide {
     margin-left: 60px;
