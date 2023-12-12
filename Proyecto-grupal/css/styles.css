@@ -1,5 +1,10 @@
-/*inicio de section porfile*/
-.profile{
+/*inicio de section profile*/
+.team{
+  text-align: center;
+  font-size: 45px;
+}
+
+.profiles{
     background-color: rgb(216, 216, 216);
     border-radius: 40px;
     width: 90vw;
@@ -14,7 +19,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 9%;
+    margin-left: 118px;
+    margin-bottom: 40px;
   }
 
   .self-profile{
@@ -42,6 +48,6 @@
   .icon:hover{
     color: #0077B5;
   }
-  /*fin de seccion de los perfiles*/
+  /*fin de seccion de los profiles*/
 
 
