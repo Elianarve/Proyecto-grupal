@@ -169,7 +169,7 @@
 }
 /* fin de barra navegacion */
 
-/* inicio section */
+/* inicio section servicios*/
 
 .service{
     background-color: #d6dce8;
@@ -208,7 +208,7 @@
     background-color: #F1EDED;
     border-radius: 30px;
     height: 250px;
-    width: 250px;     /*300*/
+    width: 270px;     /*300*/
     text-align: justify;
     /*padding: 10px; 0px*/
     margin: auto; /*10px 10px 0px 5px*/
@@ -265,9 +265,53 @@
     text-align: center;
     padding-bottom: 12px;
 }
+/* fin section servicios */
 
 
-/* fin section desarrollo */
+/*inicio de section profile*/
+.team{
+    text-align: center;
+    font-size: 36px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .team:hover{
+    color: #6496f9;
+    font-weight: bold;
+    font-size: 38px;
+  }
+  
+  .section-profiles{
+      background-color: rgb(216, 216, 216);
+      border-radius: 40px;
+      width: 90vw;
+      height: 910px;    
+      margin: 3% 3% 3% 4%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+  }
+  
+  .title-name{
+    font-size: 25px;
+    margin: auto; 
+  }
+
+    .item-profile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 118px;
+      margin-bottom: 40px;
+    }
+  
+    .self-profile{
+      display: flex;
+      flex-direction: column;
+      margin-left: 18%;
+      align-items: center;
+    }
+  
 
 .icon-content{
     display: flex;
@@ -279,8 +323,20 @@
     height: 30px;
     margin-top: 16px;
 }
+.description{
+    font-size: 20px;
+    margin: auto;
+  }
 
-/* fin section */
+  .icon{
+    font-size: 35px;
+    color: black;
+  }
+
+  .icon:hover{
+    color: #0077B5;
+  }
+  /*fin de seccion de los profiles*/
 
 /* inicio footer */
 
@@ -371,4 +427,6 @@
 }
 
 /* fin footer */
+
+
 
