@@ -404,6 +404,7 @@
     color: white;
     opacity: 0;
     transition: 0.3s ease;
+    font-size: 30px;
 }
 
 .contenedor:hover .overlay {
