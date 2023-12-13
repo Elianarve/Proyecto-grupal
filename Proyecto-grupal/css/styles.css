@@ -7,11 +7,11 @@
     margin-top: 20%;
     margin-bottom: 0%;
     padding-top: 2%;
-    padding-bottom: 8.5%;
+    padding-bottom: 3.5%;
 }
 
 .estamos, .contactanos, .trabaja {
-    font-size: 18px;
+    font-size: 1.1em;
     font-family: 'Jost', sans-serif;
     font-weight: bold;
     color: rgb(37, 195, 206);
@@ -29,7 +29,7 @@
 }
 
 .direccion {
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Jost', sans-serif;
     color: white;
     margin-left: 4%;
@@ -44,7 +44,7 @@
 }
 
 .tel {
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Jost', sans-serif;
     color: white;
     display: flex;
@@ -55,7 +55,7 @@
 }
 
 .email {
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Jost', sans-serif;
     display: flex;
     justify-content: center;
@@ -72,21 +72,21 @@
 }
 
 .cv {
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Jost', sans-serif;
     color: white;
     display: flex;
     justify-content: flex-end;
-    margin-right: 16.1%;
+    margin-right: 15.8%;
     margin-top: -2%;
 }
 
 .rrhh {
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Jost', sans-serif;
     display: flex;
     justify-content: flex-end;
-    margin-right: 10.8%;
+    margin-right: 10.4%;
 }
 
 a {
@@ -107,7 +107,7 @@ a {
 }
 
 .copyright {
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Jost', sans-serif;
     color: white;
     margin-left: 4%;
@@ -119,6 +119,8 @@ a {
     justify-content: flex-end;
     margin-right: 7%;
     margin-top: -2%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* fin footer */
