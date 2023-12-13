@@ -2,31 +2,31 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
 /* inicio idioma */
-.language{
+.language {
     display: flex;
     justify-content: right;
     margin: 40px 125px 40px 0;
 }
 
-.en{
+.en {
     color: #333;
     font-weight: bold;
 }
 
-.es{
+.es {
     color: #333;
     font-weight: bold;
 }
 
-.check{
+.check {
     position: relative;
     width: 50px;
 }
 
-.check:before{
+.check:before {
     content: '';
     position: absolute;
     width: 50px;
@@ -35,7 +35,7 @@
     border-radius: 25px;
 }
 
-.check:after{
+.check:after {
     content: '';
     position: absolute;
     width: 25px;
@@ -47,21 +47,23 @@
     box-sizing: border-box;
 }
 
-.check:checked:after{
+.check:checked:after {
     left: 25px;
     border: 2px solid #6496f9;
 }
 
-.check:checked:before{
+.check:checked:before {
     background: #6496f9;
 }
+
 /* fin idioma */
 
 /* video */
-.video-style{
+.video-style {
     width: 90vw;
     height: 40vw;
-    object-fit: cover; /* para ajustar img o videos al contenedor */
+    object-fit: cover;
+    /* para ajustar img o videos al contenedor */
     border-radius: 40px;
     display: flex;
     margin: 3% 3% 3% 4%;
@@ -70,15 +72,16 @@
 .video-style::-webkit-media-controls {
     display: none;
 }
+
 /* fin video */
 
 /* inicio barra navegacion */
- .header{
+.header {
     /* background: linear-gradient(90deg, rgba(152,185,250,1) 6%, rgba(230,230,230,1) 100%);   */
-    background: linear-gradient(90deg, rgba(100,150,249,1) 17%, rgba(230,230,230,1) 100%);
-    height: 80px; 
+    background: linear-gradient(90deg, rgba(100, 150, 249, 1) 17%, rgba(230, 230, 230, 1) 100%);
+    height: 80px;
     opacity: 70%;
-    padding: 0 3%; 
+    padding: 0 3%;
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
@@ -88,28 +91,28 @@
 }
 
 
-.img-nav{
+.img-nav {
     width: auto;
     /* height: 60%;   PREGUNTAR!!!!!
     padding-top: 16px; */
     height: 93%;
     padding-top: 3px;
-}   
+}
 
-.list{
+.list {
     text-align: center;
     width: 130px;
     height: 45px;
 }
 
-.list-nav{
+.list-nav {
     display: flex;
     list-style: none;
     font-size: 20px;
     margin-top: 5%;
 }
 
-.a-list{
+.a-list {
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -119,7 +122,7 @@
     background-color: #6496f9;
 }
 
-.a-list-first{
+.a-list-first {
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -129,7 +132,7 @@
     margin-left: 20px;
 }
 
-.a-list-Profile{
+.a-list-Profile {
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -138,7 +141,8 @@
     background-color: #6496f9;
 }
 
-.a-list-contact{
+
+.a-list-contact {
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -148,30 +152,31 @@
     margin-left: 15px;
 }
 
-.a-list:hover{
+.a-list:hover {
     color: black;
     background-color: white;
 }
 
-.a-list-first:hover{
+.a-list-first:hover {
     color: black;
     background-color: white;
 }
 
-.a-list-Profile:hover{
+.a-list-Profile:hover {
     color: black;
     background-color: white;
 }
 
-.a-list-contact:hover{
+.a-list-contact:hover {
     color: black;
     background-color: white;
 }
+
 /* fin de barra navegacion */
 
 /* inicio section servicios*/
 
-.service{
+.service {
     background-color: #d6dce8;
     width: 90vw;
     height: 30vw;
@@ -179,164 +184,288 @@
     margin: 3% 3% 3% 4%;
 }
 
-.title-service{
+.titles {
     text-align: center;
     transition: 0.3s ease-in-out;
     padding-top: 4%;
     font-size: 36px;
 }
 
-.title-service:hover{
+.titles:hover {
     color: #6496f9;
     font-weight: bold;
     font-size: 38px;
 }
 
-.subtitle{
+.subtitle {
     text-align: center;
     margin-top: 20px;
 }
 
-.section-article{
+.section-article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 3%;
 }
 
-.article{
+.article {
     display: grid;
     background-color: #F1EDED;
     border-radius: 30px;
     height: 250px;
-    width: 270px;     /*300*/
+    width: 270px;
+    /*300*/
     text-align: justify;
     /*padding: 10px; 0px*/
-    margin: auto; /*10px 10px 0px 5px*/
+    margin: auto;
+    /*10px 10px 0px 5px*/
     font-size: medium;
 }
 
 /* seccion diseño ux */
-.text-article-diseño{
+.text-article-diseño {
     padding: 26px 20px 0px 20px;
 }
 
-.text-small-diseño{
+.text-small-diseño {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
     padding: 48px 20px 10px 20px;
 }
+
 /* fin section ux */
 
 /* section marketing */
-.text-article-marketing{
+.text-article-marketing {
     padding: 12px 20px 0px 20px;
 }
 
-.text-small-marketing{
+.text-small-marketing {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 10px;
 }
+
 /* fin section marketing */
 
 /* inicio section SEO */
-.text-article-seo{
+.text-article-seo {
     padding: 0px 20px 34px 20px;
 }
 
-.text-small-seo{
+.text-small-seo {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
 }
+
 /* fin section SEO */
 
 /* inicio section desarrollo */
-.text-article-develop{
+.text-article-develop {
     padding: 10px 20px 20px 20px;
 }
 
-.text-small-develop{
+.text-small-develop {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 12px;
 }
-/* fin section servicios */
 
+/* fin section desarrollo */
 
-/*inicio de section profile*/
-.team{
-    text-align: center;
-    font-size: 36px;
-    transition: 0.3s ease-in-out;
-  }
-
-  .team:hover{
-    color: #6496f9;
-    font-weight: bold;
-    font-size: 38px;
-  }
-  
-  .section-profiles{
-      background-color: rgb(216, 216, 216);
-      border-radius: 40px;
-      width: 90vw;
-      height: 910px;    
-      margin: 3% 3% 3% 4%;
-      display: flex;
-      flex-wrap: wrap;
-      align-content: center;
-  }
-  
-  .title-name{
-    font-size: 25px;
-    margin: auto; 
-  }
-
-    .item-profile{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-left: 118px;
-      margin-bottom: 40px;
-    }
-  
-    .self-profile{
-      display: flex;
-      flex-direction: column;
-      margin-left: 18%;
-      align-items: center;
-    }
-  
-
-.icon-content{
+.icon-content {
     display: flex;
     justify-content: center;
 }
 
-.icon-user{
+.icon-user {
     width: 30px;
     height: 30px;
     margin-top: 16px;
 }
-.description{
+
+/* fin section */
+
+/* fin section servicios */
+
+
+/*inicio de section profile*/
+.title-team {
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+    font-size: 36px;
+    transition: 0.3s ease-in-out;
+}
+
+.team:hover {
+    color: #6496f9;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.section-profiles {
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+    width: 90vw;
+    height: 910px;
+    margin: 3% 3% 3% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.title-name {
+    font-size: 25px;
+    margin: auto;
+}
+
+.item-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 118px;
+    margin-bottom: 40px;
+}
+
+.self-profile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    align-items: center;
+}
+
+.description {
     font-size: 20px;
     margin: auto;
-  }
+}
 
-  .icon{
+.icon {
     font-size: 35px;
     color: black;
-  }
+}
 
-  .icon:hover{
+.icon:hover {
     color: #0077B5;
-  }
-  /*fin de seccion de los profiles*/
+}
+
+/*fin de seccion de los profiles*/
+
+/* Proyectos */
+.fondo_proyectos {
+    background-color: #F4F4F4;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.proyecto {
+    width: auto;
+    height: 17vw;
+    /* Tamaño de las imagenes de los proyectos */
+}
+
+.contenedor {
+    margin: 10px;
+    /* Separacion de cada proyecto */
+    position: relative;
+    display: inline-block;
+    padding: 0.8vw;
+    /* Para crear el marco */
+    background-color: black;
+    /* Color del marco */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.texto-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.contenedor:hover .overlay {
+    opacity: 1;
+}
+
+.contenedor:hover .texto-hover {
+    opacity: 1;
+}
+
+.titulo_proyectos {
+    /* margin-top: 20px; */
+    margin-bottom: 56px;
+    /* margin-left: 20px; */
+}
+
+/* fin proyectos */
+
+/* inicio Slider infinito */
+
+.fondo_carrousel {
+    background-color: #F4F4F4;
+}
+
+.titulo_carrousel {
+    /* margin-top: 20px; */
+    margin-bottom: 56px;
+    /* margin-left: 20px; */
+}
+
+.slide {
+    margin-top: 1.5vw;
+    margin-left: 60px;
+}
+
+.slider {
+    width: 90vw;
+    /* 90% del viewport */
+    height: auto;
+    margin: auto;
+    /* Para que quede centrado en la pantalla */
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 26s linear infinite;
+    width: calc(200px * 10);
+    /*Calcula operaciones*/
+    /*tamaño de cada imagen multiplicado por el n de imagenes totales*/
+    -webkit-animation: scroll 26s linear infinite;
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide .marca {
+    width: 100%;
+}
+
+/* fin carrousel */
 
 /* inicio footer */
 
@@ -350,7 +479,9 @@
     padding-bottom: 3%;
 }
 
-.estamos, .contactanos, .trabaja {
+.estamos,
+.contactanos,
+.trabaja {
     font-size: 18px;
     font-family: 'Jost', sans-serif;
     font-weight: bold;
@@ -428,5 +559,18 @@
 
 /* fin footer */
 
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 
+    100% {
+        -webkit-transform: translateX(calc(-200px * 5));
+        transform: translateX(calc(-200px * 5));
+    }
+}
 
+/* -webkit-transform es una propiedad para navegadores de motor WebKit como Google Chrome y Safari. 
+Se ha vuelto menos común gracias a la mejora de la compatibilidad entre navegadores. Pero puede ser
+ necesario en algunos desarrollos.  */
