@@ -4,11 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+.imgbackform{
 
-/* inicio formulario */
-
-
-.imgbackform {
 
    /* border-radius: 30px; 
     margin: 10px;*/
@@ -31,10 +28,10 @@ form {
     background-color:black;
     padding: 3vw;
     padding-top:2vw;
-    border-radius: 20%;
+    border-radius: 5%;
     box-shadow:black;
     margin: 5vw;
-    width: 30vw; 
+    width: 40vw; 
     
 }
         
@@ -96,39 +93,19 @@ input:focus {
 
 
 
-.send {
-
-    background-color: #ffff;
-    color: black;
-    padding: 1vw;
-    border: none;
-    border-radius: 15%;
-    cursor: pointer;
-    display:flex;
-    justify-items: right;
-    
-            
+ #send {
+    float:right;
 }
 
-
-.send:hover {
-
-    background-color: black;
-    color:#ffff;
-
-}
-
-
-.checkbox {
-
-    margin-top: 2vw;
-    margin-right:0;
-    width: 12px;
+.check-ley { 
     display: flex;
-    justify-content:space-between;
-            
-            
-    
+
+}
+
+.text-ley {
+
+    margin-top:13px;
+
 }
 
 
@@ -137,12 +114,9 @@ input:focus {
     text-decoration-line: underline;
     font-weight: lighter;
     color:#fff;
-    font-size: 1rem;
-    display: flex;
-    justify-content:right;
+    font-size: 0.5rem;
+    margin:1px;
     
-            
-
 }
 
 .ley:hover {
