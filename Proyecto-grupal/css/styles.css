@@ -58,6 +58,7 @@
 
 /* fin idioma */
 
+
 /* video */
 .video-style {
     width: 90vw;
@@ -65,12 +66,6 @@
     object-fit: cover;
     /* para ajustar img o videos al contenedor */
     border-radius: 40px;
-    display: flex;
-    margin: 3% 3% 3% 4%;
-}
-
-.video-style::-webkit-media-controls {
-    display: none;
 }
 
 /* fin video */
@@ -88,9 +83,108 @@
     width: 80vw;
     position: fixed;
     margin: 1% 0 0 6%;
+} 
+
+/* inicio formulario */
+
+.imgbackform {
+
+    /* border-radius: 30px; 
+     margin: 10px;*/
+     margin:10px;
+     padding: 10vw; 
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     font-family: Arial, Helvetica, sans-serif;
+     background-image: url(/img/backform.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ 
+ }        
+            
+form {
+    background-color:black;
+    padding: 3vw;
+    padding-top:2vw;
+    border-radius: 20%;
+    box-shadow:black;
+    margin: 5vw;
+    width: 30vw; 
+}
+
+.labelform {
+            
+    display: block;
+    margin: 10px 0;
+    color: #555;
+
 }
 
 
+.inputform {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+        
+}
+
+input:valid {
+            
+    border-color: #4caf50;
+    background-color: #71c0745d;
+    
+}
+
+
+input:invalid {       
+    border-color: #e74c3c;               
+}
+
+
+input:focus {
+
+    outline: none;
+    border-color: #00d9ff;
+    background-color: #6ad1ca78;
+    cursor:text;
+
+}
+
+
+
+.send {
+
+    background-color: #ffff;
+    color: black;
+    padding: 1vw;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    display:flex;
+    justify-items: right;
+    
+            
+}
+
+
+.send:hover {
+    background-color: black;
+    color:#ffff;
+}
+
+.titleform {
+        text-align: center;
+        font-weight: lighter;
+        color:#fff;
+        margin-bottom: 4vw;
+    
+    }
+        
 .img-nav {
     width: auto;
     /* height: 60%;   PREGUNTAR!!!!!
@@ -99,11 +193,8 @@
     padding-top: 3px;
 }
 
-.list {
-    text-align: center;
-    width: 130px;
-    height: 45px;
-}
+.list {}
+
 
 .list-nav {
     display: flex;
@@ -470,16 +561,6 @@
 
 /* inicio footer */
 
-.footer {
-    background-color: black;
-    width: auto;
-    height: auto;
-    margin-top: 20%;
-    margin-bottom: 0%;
-    padding-top: 2%;
-    padding-bottom: 3%;
-}
-
 .estamos,
 .contactanos,
 .trabaja {
@@ -491,37 +572,37 @@
     margin-left: 2%;
 }
 
-.direccion {
-    font-size: 16px;
-    font-family: 'Jost', sans-serif;
-    color: white;
-    margin-left: 4%;
-    margin-top: -2%;
+
+.checkbox {
+
+    margin-top: 2vw;
+    margin-right:0;
+    width: 12px;
+    display: flex;
+    justify-content:space-between;
+            
+            
+    
 }
 
-.contactanos {
+
+.ley {
+            
+    text-decoration-line: underline;
+    font-weight: lighter;
+    color:#fff;
+    font-size: 1rem;
     display: flex;
-    justify-content: center;
-    margin-top: -8.3%;
-    margin-right: 4.5%;
+    justify-content:right;
+    
+            
+
 }
 
-.datos {
-    font-size: 16px;
-    font-family: 'Jost', sans-serif;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-left: 5.9%;
-    margin-top: -2%;
-    margin-right: 5%;
-}
+.ley:hover {
 
-.trabaja {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -6.6%;
-    margin-right: 5%;
+    color:#555;
+
 }
 
 .rrhh {
