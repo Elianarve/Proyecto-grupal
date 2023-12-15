@@ -10,3 +10,11 @@ function language(){
         location.href="../english/index.html";
      }
 }
+
+function send() { 
+   swal ('✅ Fomulario enviado correctamente');
+}
+
+function sendEnglish() { 
+   swal ('✅ Form submitted successfully');
+}

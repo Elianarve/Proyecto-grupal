@@ -7,7 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = 'b2c8d9b6881dbba79ae18d33b378e4755992c235';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+            s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+            c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -218,7 +229,35 @@
         </div>
     </div>
     <!-- fin carrousel -->
+
+     <!-- inicio form -->
+     <div class="imgbackform">
+        <form>
+
+            <h3 class="titleform">¿Do you want more information?</h3>
+            
+            <label for="name" class="labelform"></label>
+            <input type="text" class="inputform" id="name" name="name" placeholder="Juanita Flores" minlength="3" maxlength="20" autocomplete="name" required>
+            
+            <label for="email" class="labelform"></label>
+            <input type="email" class="inputform" id="email" name="email" placeholder="example@mail.com" minlength="6" maxlength="20" autocomplete="email" required>
+            
+            <label for="phone" class="labelform"></label>
+            <input type="tel" class="inputform" id="phone" name="phone" placeholder="0034685393607" minlength="9" maxlength="13" autocomplete="mobile"required>
+
+            
+            <button type="button" class="button-form" onclick="sendEnglish()">Send</button>
+
+            <div class="check-ley">
+                <input type="checkbox" name="ley" class="ley"></input>
+                <p class="text-ley">&nbsp;Data Protection Act</p>
+            </div> 
+            <script src="../form/script.js"></script>
+        </form>
+    </div>
+    <!-- fin form -->
     <script src="../js/script.js"></script>
+
 </body>
 
 </html>
