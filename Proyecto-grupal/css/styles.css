@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Jost', sans-serif, Arial, Helvetica;
   }
 
 /* inicio idioma */
@@ -74,15 +74,13 @@
 
 /* inicio barra navegacion */
 .header{
-    /* background: linear-gradient(90deg, rgba(152,185,250,1) 6%, rgba(230,230,230,1) 100%);   */
     background: linear-gradient(90deg, rgba(100,150,249,1) 17%, rgba(230,230,230,1) 100%);
     height: 80px; 
     opacity: 70%;
-    padding: 0 3%; 
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
-    width: 80vw;
+    width: 86vw;
     position: fixed;
     margin: 1% 0 0 6%;
 }
@@ -90,8 +88,6 @@
 
 .img-nav{
     width: auto;
-    /* height: 60%;   PREGUNTAR!!!!!
-    padding-top: 16px; */
     height: 93%;
     padding-top: 3px;
 }   
@@ -106,7 +102,7 @@
     display: flex;
     list-style: none;
     font-size: 20px;
-    margin-top: 5%;
+    margin: 4% 4%;
 }
 
 .a-list{
@@ -114,8 +110,6 @@
     text-decoration: none;
     border-radius: 30px;
     padding: 5px 20px 5px 20px;
-    /* background-color: black; */
-    /* background-color: white; */
     background-color: #6496f9;
 }
 
@@ -124,9 +118,8 @@
     text-decoration: none;
     border-radius: 30px;
     padding: 5px 20px 5px 20px;
-    /* background-color: black; */
     background-color: #6496f9;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .a-list-Profile{
@@ -134,7 +127,6 @@
     text-decoration: none;
     border-radius: 30px;
     padding: 5px 20px 5px 20px;
-    /* background-color: black; */
     background-color: #6496f9;
 }
 
@@ -144,9 +136,8 @@
     text-decoration: none;
     border-radius: 30px;
     padding: 5px 20px 5px 20px;
-    /* background-color: black; */
     background-color: #6496f9;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .a-list:hover{
@@ -204,25 +195,21 @@
 
 .section-article {
     display: flex;
+    justify-content: space-around;
     margin-top: 2%;
 }
 
 .article {
-    display: grid;
     background-color: #F1EDED;
     border-radius: 30px;
     height: 270px;
     width: 280px;
     text-align: justify;
-    /*padding: 10px; 0px*/
-    margin: auto;
-    /*10px 10px 0px 5px*/
-    font-size: medium;
 }
 
 /* seccion diseño ux */
-.text-article-diseño {
-    padding: 7px 20px 0px 20px;
+.text-article {
+    margin: 5% 8% 0% 8%;
     font-size: 15px;
 }
 
@@ -230,51 +217,58 @@
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    padding: 60px 20px 10px 20px;
+    margin: 24% 7% 0% 7%;
 }
 
+.text-small-diseño-en{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15% 7% 0% 7%;
+}
 /* fin section ux */
 
 /* section marketing */
-.text-article-marketing {
-    padding: 2px 20px 0px 20px;
-}
-
 .text-small-marketing {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 10px;
+    margin-top: 8%;
 }
 
+.text-small-marketing-en{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 16% 7% 0% 7%;
+}
 /* fin section marketing */
 
 /* inicio section SEO */
-.text-article-seo {
-    padding: 0px 20px 50px 20px;
-}
-
 .text-small-seo {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    padding-top: 10px;
+    margin-top: 31%;
 }
 
 /* fin section SEO */
 
 /* inicio section desarrollo */
-.text-article-develop {
-    padding: 10px 20px 15px 20px;
-}
 
 .text-small-develop {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 15px;
+    margin-top: 16%;
 }
 
+.text-small-seo-en{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 31%;
+}
 /* fin section desarrollo */
 
 .icon-content {
@@ -288,7 +282,7 @@
     margin-top: 16px;
 }
 
-/* fin section */
+/* fin section desarrollo*/
 
 /* fin section servicios */
 
@@ -310,15 +304,22 @@
     font-size: 38px;
 }
 
-.section-profiles {
+.profiles{
+    margin: 3% 3% 3% 4%;
     background-color: rgb(216, 216, 216);
     border-radius: 40px;
     width: 90vw;
     height: 910px;
-    margin: 3% 3% 3% 4%;
+}
+
+.section-profiles-one {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    justify-content: space-around;
+}
+
+.section-profiles-two{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .title-name {
@@ -330,8 +331,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 118px;
-    margin-bottom: 40px;
+    margin-top: 2%;
 }
 
 .self-profile {
@@ -415,23 +415,18 @@
 }
 
 .titulo_proyectos {
-    /* margin-top: 20px; */
     margin-bottom: 56px;
-    /* margin-left: 20px; */
 }
 
 /* fin proyectos */
 
 /* inicio Slider infinito */
-
 .fondo_carrousel {
     background-color: #F4F4F4;
 }
 
 .titulo_carrousel {
-    /* margin-top: 20px; */
     margin-bottom: 56px;
-    /* margin-left: 20px; */
 }
 
 .slide {
@@ -469,7 +464,7 @@
 
 /* inicio form */
 .imgbackform{
-    margin: 70px 10px 10px 10px;
+    margin-top: 70px;
     padding: 10vw; 
     display: flex;
     align-items: center;
@@ -571,90 +566,71 @@ input:focus {
     background-color: black;
     width: auto;
     height: auto;
-    margin-top: 20%;
-    margin-bottom: 0%;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    padding: 2% 3% 2% 3%;
 }
 
-.estamos,
-.contactanos,
-.trabaja {
-    font-size: 18px;
-    font-family: 'Jost', sans-serif;
-    font-weight: bold;
-    color: rgb(37, 195, 206);
-    padding: 2%;
-    margin-left: 2%;
+.caja1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.direccion {
-    font-size: 16px;
-    font-family: 'Jost', sans-serif;
+.text-direction{
     color: white;
-    margin-left: 4%;
-    margin-top: -2%;
-}
-
-.contactanos {
-    display: flex;
-    justify-content: center;
-    margin-top: -8.3%;
-    margin-right: 4.5%;
-}
-
-.datos {
-    font-size: 16px;
-    font-family: 'Jost', sans-serif;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-left: 5.9%;
-    margin-top: -2%;
-    margin-right: 5%;
-}
-
-.trabaja {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -6.6%;
-    margin-right: 5%;
-}
-
-.rrhh {
-    font-size: 16px;
-    font-family: 'Jost', sans-serif;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -2%;
-    margin-right: 10%;
 }
 
 .line {
     width: 89%;
-    height: -10%;
     background-color: rgb(128, 127, 127)2, 78, 78;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(251, 249, 249);
     margin-left: 4%;
-    margin-top: 1.5%;
+    margin-top: 2%;
 }
 
-.copyright {
-    font-size: 16px;
+.estamos, .contactanos, .trabaja {
+    font-size: 1.1em;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(37, 195, 206);
+    margin-bottom: 3%;
+}
+
+.estamos, .contactanos, .trabaja {
+    transition: color 0.5s ease;
+}
+
+.estamos:hover, .contactanos:hover, .trabaja:hover {
+    color:rgb(222, 85, 140);
+    cursor:crosshair;
+}
+
+.tel, .cv {
+    font-size: 1em;
     font-family: 'Jost', sans-serif;
     color: white;
-    margin-left: 4%;
-    margin-top: 1.5%;
 }
 
-.logos {
+
+a {
+    color: rgb(255, 255, 255);
+  }
+
+  a:hover {
+    color: rgb(222, 85, 140);
+  }
+
+.caja3{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 7%;
-    margin-top: -2%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7% 0 4%;
 }
 
+.copyright, .logos {
+    font-size: 1em;
+    color: white;
+}
 /* fin footer */
 
 @keyframes scroll {

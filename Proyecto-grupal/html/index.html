@@ -4,11 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400&family=Open+Sans:wght@300;400;700&family=Permanent+Marker&family=Rowdies:wght@700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700&family=Open+Sans:wght@300;400;700&family=Permanent+Marker&family=Rowdies:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Landing Page WebDesings</title>
+    <link rel="icon" href="../Proyecto-grupal/img/logo.png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-     <!-- Smartsupp Live Chat script -->
-     <script type="text/javascript">
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
         var _smartsupp = _smartsupp || {};
         _smartsupp.key = 'b2c8d9b6881dbba79ae18d33b378e4755992c235';
         window.smartsupp || (function (d) {
@@ -21,9 +30,16 @@
     <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> -->
 </head>
 
 <body>
+    <!-- inicio Modo Claro/Oscuro -->
+    <!-- <body data-bs-theme="light">  
+    <section class="theme">
+        <button onclick="cambiarTema()" class="btn rounded-fill"><i id="dl-icon" class="bi bi-moon-fill"></i></button>
+    </section> -->
+    <!-- Fin Modo Claro/Oscuro -->
     <!-- inicio idioma -->
     <div class="language">
         <span class="en">Ingles&nbsp;</span>
@@ -42,7 +58,7 @@
                     <li class="list"><a href="#services" class="a-list">Servicios</a></li>
                     <li class="list"><a href="#profiles" class="a-list-Profile">Equipo</a></li>
                     <li class="list"><a href="#proyects" class="a-list">Proyectos</a></li>
-                    <li class="list"><a href="" class="a-list-contact">Contacto</a></li>
+                    <li class="list"><a href="#contact" class="a-list-contact">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -65,7 +81,7 @@
                     <h2 class="subtitle">Diseño UX / UI&nbsp;&nbsp;</h2>
                     <img class="icon-user" src="../icon/icon-ux.png" alt="icon-user">
                 </div>
-                <p class="text-article-diseño">Construimos el mejor diseño y arquitectura para que la experiencia del
+                <p class="text-article">Construimos el mejor diseño y arquitectura para que la experiencia del
                     usuario
                     sea confiable, accesible y que a su vez lo disfrute.
                 </p>
@@ -76,7 +92,7 @@
                     <h2 class="subtitle">Marketing Digital&nbsp;&nbsp;</h2>
                     <img class="icon-user" src="../icon/icon-marketing.png" alt="icon-marketing">
                 </div>
-                <p class="text-article-marketing">Nos ocupamos de llegar llegar a una audiencia más específica, de
+                <p class="text-article">Nos ocupamos de llegar llegar a una audiencia más específica, de
                     acuerdo con sus gustos
                     y preferencias, lo que lleva a un mayor número de ventas efectivas que las técnicas
                     tradicionales.
@@ -88,7 +104,7 @@
                     <h2 class="subtitle">Expertos en SEO&nbsp;&nbsp;</h2>
                     <img class="icon-user" src="../icon/icon-seo.png" alt="icon-seo">
                 </div>
-                <p class="text-article-seo">¿Quieres mejorar tu posicionamiento SEO en buscadores con las técnicas mas
+                <p class="text-article">¿Quieres mejorar tu posicionamiento SEO en buscadores con las técnicas mas
                     actuales?
                 </p>
                 <p class="text-small-seo">Optimización para motores de búsqueda</p>
@@ -98,7 +114,7 @@
                     <h2 class="subtitle">Desarrollo Web&nbsp;&nbsp;</h2>
                     <img class="icon-user" src="../icon/icon-desarrollo.png" alt="icon-desarrollo">
                 </div>
-                <p class="text-article-develop">Si buscas los mejores diseños para la página web de tu negocio, este es
+                <p class="text-article">Si buscas los mejores diseños para la página web de tu negocio, este es
                     tu sitio. Creamos
                     diseños impecables y óptimos que haran destacar tu negocio.
                 </p>
@@ -109,34 +125,36 @@
     <!-- fin servicios -->
 
     <!--inicio seccion perfiles-->
+    <h1 class="titles">Equipo</h1>
     <div class="profiles" id="profiles">
-        <h1 class="titles">Equipo</h1>
-        <section class="section-profiles">
-            <div class="item-profile">
+        <section class="section-profiles-one">
+            <article class="item-profile">
                 <img src="../img/Photo Rebeca.png">
                 <h1 class="title-name">Rebeca Vicente</h1>
                 <p class="description">Especialista Front-End</p>
                 <a href="https://www.linkedin.com/in/rebeca-vm-bb024b2a2/" target="_blank">
                     <span class="icon"><i class="fab fa-linkedin"></i></span>
                 </a>
-            </div>
-            <div class="item-profile">
+            </article>
+            <article class="item-profile">
                 <img src="../img/Photo Eliana.png" alt="foto-personal">
                 <h1 class="title-name">Eliana Rendón</h1>
                 <p class="description">Desarrolladora Web</p>
                 <a href="https://www.linkedin.com/in/eliana-rendón-velázquez-4ab640244" target="_blank">
                     <span class="icon"><i class="fab fa-linkedin"></i></span>
                 </a>
-            </div>
-            <div class="item-profile">
+            </article>
+            <article class="item-profile">
                 <img src="../img/Photo Fátima.png" alt="foto-personal">
                 <h1 class="title-name">Fatima Cosme</h1>
                 <p class="description">Experta en SEO</p>
                 <a href="https://www.linkedin.com/in/fatimacosme/" target="_blank">
                     <span class="icon"><i class="fab fa-linkedin"></i></span>
                 </a>
-            </div>
-            <div class="self-profile">
+            </article>
+        </section>
+        <section class="section-profiles-two">
+            <article class="self-profile">
                 <img src="../img/Photo Lucero.png" alt="foto-personal">
                 <h1 class="title-name">Lucero Hernandez</h1>
                 <p class="description">Diseñadora UX / UI</p>
@@ -144,15 +162,15 @@
                     target="_blank">
                     <span class="icon"><i class="fab fa-linkedin"></i></span>
                 </a>
-            </div>
-            <div class="self-profile">
+            </article>
+            <article class="self-profile">
                 <img src="../img/Photo Estefania.png" alt="foto-personal">
                 <h1 class="title-name">Estefanía Bartolomé</h1>
                 <p class="description">Marketing Digital</p>
                 <a href="https://www.linkedin.com/in/estefan%C3%ADa-bartolom%C3%A9-ab1b64270/" target="_blank">
                     <span class="icon"><i class="fab fa-linkedin"></i></span>
                 </a>
-            </div>
+            </article>
         </section>
     </div>
     <!--fin de perfiles-->
@@ -167,19 +185,26 @@
                 <div class="contenedor">
                     <img src="../img/Movil_proyecto.png" alt="Descripción de la imagen" class="proyecto">
                     <div class="overlay"></div>
-                    <a href="https://viajeskinsai.es/viajes-para-amantes-de-la-naturaleza/" target="_blank"><p class="texto-hover">PROYECTO</p></a>
+                    <a href="https://viajeskinsai.es/viajes-para-amantes-de-la-naturaleza/" target="_blank">
+                        <p class="texto-hover">PROYECTO</p>
+                    </a>
                 </div>
 
                 <div class="contenedor">
                     <img src="../img/Nike_proyecto.png" alt="Descripción de la imagen" class="proyecto">
                     <div class="overlay"></div>
-                    <a href="https://www.nike.com/es/?cp=93577296208_search_&Macro=-nike-g-10573482847-103687421919-e-c-ES-pure-452240932994-aud-372501554099:kwd-11642601-20296&ds_rl=1252249&gad_source=1&gclid=Cj0KCQiAgqGrBhDtARIsAM5s0_mbyWsuqk4hDvvnoLBi7IFyyjlfR3gyNouHFrNjHcuxeD-UwsFZaeAaApYaEALw_wcB&gclsrc=aw.ds" target="_blank"><p class="texto-hover">PROYECTO</p></a>
+                    <a href="https://www.nike.com/es/?cp=93577296208_search_&Macro=-nike-g-10573482847-103687421919-e-c-ES-pure-452240932994-aud-372501554099:kwd-11642601-20296&ds_rl=1252249&gad_source=1&gclid=Cj0KCQiAgqGrBhDtARIsAM5s0_mbyWsuqk4hDvvnoLBi7IFyyjlfR3gyNouHFrNjHcuxeD-UwsFZaeAaApYaEALw_wcB&gclsrc=aw.ds"
+                        target="_blank">
+                        <p class="texto-hover">PROYECTO</p>
+                    </a>
                 </div>
 
                 <div class="contenedor">
                     <img src="../img/Desarrollo_proyecto.png" alt="Descripción de la imagen" class="proyecto">
                     <div class="overlay"></div>
-                    <a href="https://www.apple.com/es/app-store/" target="_blank"><p class="texto-hover">PROYECTO</p></a>
+                    <a href="https://www.apple.com/es/app-store/" target="_blank">
+                        <p class="texto-hover">PROYECTO</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -232,34 +257,78 @@
     <!-- fin carrousel -->
 
     <!-- inicio form -->
-    <div class="imgbackform">
+    <div class="imgbackform" id="contact">
         <form>
 
             <h3 class="titleform">¿Quieres más información?</h3>
-            
-            <label for="name" class="labelform"></label>
-            <input type="text" class="inputform" id="name" name="name" placeholder="Juanita Flores" minlength="3" maxlength="20" autocomplete="name" required>
-            
-            <label for="email" class="labelform"></label>
-            <input type="email" class="inputform" id="email" name="email" placeholder="example@mail.com" minlength="6" maxlength="20" autocomplete="email" required>
-            
-            <label for="phone" class="labelform"></label>
-            <input type="tel" class="inputform" id="phone" name="phone" placeholder="0034685393607" minlength="9" maxlength="13" autocomplete="mobile"required>
 
-            
+            <label for="name" class="labelform"></label>
+            <input type="text" class="inputform" id="name" name="name" placeholder="Juanita Flores" minlength="3"
+                maxlength="20" autocomplete="name" required>
+
+            <label for="email" class="labelform"></label>
+            <input type="email" class="inputform" id="email" name="email" placeholder="example@mail.com" minlength="6"
+                maxlength="20" autocomplete="email" required>
+
+            <label for="phone" class="labelform"></label>
+            <input type="tel" class="inputform" id="phone" name="phone" placeholder="0034685393607" minlength="9"
+                maxlength="13" autocomplete="mobile" required>
+
+
             <button type="button" class="button-form" onclick="send()">Enviar</button>
 
             <div class="check-ley">
                 <input type="checkbox" name="ley" class="ley"></input>
                 <p class="text-ley">&nbsp;Ley de protección de datos</p>
-            </div> 
+            </div>
             <script src="../form/script.js"></script>
         </form>
     </div>
     <!-- fin form -->
 
+    <!-- inicio Footer -->
+    <footer class="footer">
+        <div class="caja1">
+            <div class="container-footer">
+                <article class="estamos">Estamos en:</article>
+                <article class="text-direction">Calle Corregidor Alonso de Tobar <br>28030 - Madrid<br>(Spain)</article>
+            </div>
+            <div class="container-footer">
+                <article class="contactanos">Contáctanos:</article>
+                <article class="tel">+34 647 000 933</article>
+                <article class="email"><a href="mailto:info@webdesings.com" target="_blank">info@webdesings.com</a>
+                </article>
+            </div>
+            <div class="container-footer">
+                <article class="trabaja">Quieres Trabajar En Nuestro <br>Equipo:</article>
+                <article class="cv">Envía tu CV a:</article>
+                <article class="rrhh"><a href="mailto:RRHH@webdesings.com" target="_blank">RRHH@webdesings.com</a>
+                </article>
+            </div>
+        </div>
+        <div class="caja2">
+            <hr class="line">
+        </div>
+        <div class="caja3">
+            <div class="container-footer-lower">
+                <article class="copyright">© 2023 WebDesings</article>
+            </div>
+            <div class="container-footer-lower">
+                <article class="logos">
+                    <a href="https://www.instagram.com/" class="enlace-boton" target="_blank">
+                        <img src="../img/Instagram footer.png" alt="Logo Instagram"></a>
+                    <a href="https://www.linkedin.com/in/lucero-hernandez-asesora-estrategia-marketing-ventas-comercio-electronico/"
+                        class="enlace-boton" target="_blank">
+                        <img src="../img/LinkedIn footer.png" alt="Logo Linkedin"></a>
+                </article>
+            </div>
+        </div>
+    </footer>
+    <!-- fin footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="../js/script.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 </body>
 
 
