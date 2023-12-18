@@ -1,3 +1,4 @@
+// inicio lenguaje
 let check = document.querySelector(".check");
 
 check.addEventListener('click', language);
@@ -10,7 +11,9 @@ function language(){
         location.href="../english/index.html";
      }
 }
+// fin lenguaje
 
+// inicio form
 function send() { 
    swal ('✅ Fomulario enviado correctamente');
 }
@@ -18,6 +21,7 @@ function send() {
 function sendEnglish() { 
    swal ('✅ Form submitted successfully');
 }
+// fin form
 
 
 const temaOscuro = () => {
@@ -34,3 +38,17 @@ const cambiarTema = () => {
     document.querySelector("body").getAttribute("data-bs-theme") === "light"?
     temaOscuro() : temaClaro();
 }
+
+// inicio menu
+document.addEventListener("DOMContentLoaded", function () {
+   const menuToggle = document.createElement('div');
+   menuToggle.classList.add('list-toggle');
+   // menuToggle.innerHTML = '☰';
+   document.querySelector('header').appendChild(menuToggle);
+ 
+   menuToggle.addEventListener('click', function () {
+     const menu = document.querySelector('.list-nav');
+     menu.classList.toggle('active');
+   });
+ });
+// fin menu

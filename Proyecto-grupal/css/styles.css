@@ -162,14 +162,15 @@
 
 /* fin de barra navegacion */
 
+
 /* inicio section servicios*/
 
 .service {
     background-color: #d6dce8;
     width: 90vw;
-    height: 30vw;
+    height: 33vw;
     border-radius: 40px;
-    margin: 3% 3% 3% 4%;
+    margin: 4% 3% 3% 4%;
 }
 
 .titles {
@@ -581,15 +582,13 @@ input:focus {
 }
 
 .line {
-    width: 89%;
-    background-color: rgb(128, 127, 127)2, 78, 78;
-    border-color: rgb(251, 249, 249);
-    margin-left: 4%;
+    width: 100%;
+    border-color: grey;
     margin-top: 2%;
 }
 
 .estamos, .contactanos, .trabaja {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: 'Jost', sans-serif;
     font-weight: bold;
     color: rgb(37, 195, 206);
@@ -624,11 +623,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 7% 0 4%;
 }
 
 .copyright, .logos {
-    font-size: 1em;
+    font-size: 20px;
     color: white;
 }
 /* fin footer */
@@ -648,3 +646,62 @@ a {
 /* -webkit-transform es una propiedad para navegadores de motor WebKit como Google Chrome y Safari. 
 Se ha vuelto menos común gracias a la mejora de la compatibilidad entre navegadores. Pero puede ser
  necesario en algunos desarrollos.  */
+
+
+ @media only screen and (min-width: 390px) and (max-width: 844px) /* and (orientation: landscape)*/ { 
+ /* inicio nav */
+    .header{
+        border-radius: 10px;
+        height: 12vw;
+        width: 75vw;
+    }
+ 
+    .img-nav{
+        width: 45%;
+        height: 70%;
+        padding-top: 2%;
+    }   
+
+    .list-nav{
+        display: none;
+    }
+
+    .list-nav.active{
+        display: block;
+        background-color: #6496f9;
+        position: absolute;
+        width: 55%;
+        margin-top: 26px;
+        text-align: center;
+    }
+
+    .list-nav.active li{
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .list-toggle{
+            display: block;
+            background-image: url(../icon/icons8-menú-48.png);
+            cursor: pointer;
+            padding: 0px 15px 0px 35px;
+    }
+
+    .list{
+        text-align: right;
+    }
+
+    /* fin nav */
+
+    /* changes video */
+    .video-style{
+        border-radius: 15px;
+    }
+    /* fin video */
+
+    /* inicio servicios */
+    
+
+    /* fin servicios */
+} 
