@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var phone = document.getElementById('phone').value;
 
         // Puedes hacer algo con los datos aquí, como imprimirlos en la consola
-        console.log('name', nombre);
+        console.log('name', name);
         console.log('email', email);
         console.log('phone', phone);
     });
